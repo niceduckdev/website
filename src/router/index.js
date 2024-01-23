@@ -1,8 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import Home from '@/views/home-view.vue';
 import Projects from '@/views/projects-view.vue';
-import Articles from '@/views/articles-view.vue';
-import Article from '@/views/article-view.vue';
+import NotFound from '@/views/not-found-view.vue';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -17,16 +16,11 @@ const router = createRouter({
         name: 'projects',
         component: Projects
     },
-    // {
-    //     path: '/articles',
-    //     name: 'articles',
-    //     component: Articles
-    // },
-    // {
-    //     path: '/articles/:article',
-    //     name: 'article',
-    //     component: Article
-    // },
+    {
+        path: '/:pathMatch(.*)*',
+        name: 'not-found',
+        component: NotFound
+    },
   ]
 })
 
