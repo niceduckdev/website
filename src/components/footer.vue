@@ -1,7 +1,14 @@
+<script setup>
+import Link from '@/components/link.vue';
+</script>
+
 <template>
     <footer class="footer">
-        niceduckdev {{ new Date().getFullYear() }}
-    </footer>
+		<div>
+			<Link href="/">niceduck.dev</Link>
+			{{ new Date().getFullYear() }}
+		</div>
+	</footer>
 </template>
 
 <style scoped>

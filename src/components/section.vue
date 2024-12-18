@@ -20,5 +20,6 @@
 
     .section .header {
         color: #ebdbb2;
+		font-weight: 800;
     }
 </style>

@@ -1,0 +1,17 @@
+[
+	{
+		"title": "portfolio",
+		"description": "the website you are currently looking at",
+		"link": "https://niceduck.dev"
+	},
+	{
+		"title": "global gourmet",
+		"description": "a project i made in my second year @ kdg",
+		"link": "https://gg.niceduck.dev"
+	},
+	{
+		"title": "chiro stam",
+		"description": "the website for chiro stam",
+		"link": "https://chirostam.com"
+	}
+]

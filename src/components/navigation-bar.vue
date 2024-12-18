@@ -4,11 +4,10 @@
 
 <template>
    <nav class="navigation-bar">
-      <h1 class="title accent">niceduckdev</h1>
+      <h1 class="title accent">niceduck.dev</h1>
       <section class="links">
          <NavigationLink href="/">home</NavigationLink>
          <NavigationLink href="/projects">projects</NavigationLink>
-         <!-- <NavigationLink href="/articles">articles</NavigationLink> -->
       </section>
    </nav>
 </template>

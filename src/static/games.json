@@ -1,0 +1,32 @@
+[
+	{
+		"title": "potatowars",
+		"description": "a fun couch co-op game where you play as a potato",
+		"link": "https://niceduckdev.itch.io/potatowars"
+	},
+	{
+		"title": "boomeranger",
+		"description": "a game where you are hunted by an endless wave game, made for the weekly game jam",
+		"link": "https://niceduckdev.itch.io/boomeranger"
+	},
+	{
+		"title": "four colors",
+		"description": "a multiplayer clone of four colors written in java using javafx and kryonet, made in my first year @ kdg",
+		"link": "https://github.com/niceduckdev/four-colors"
+	},
+	{
+		"title": "mine game",
+		"description": "written in c for the arduino uno r3, made in my first year @ kdg",
+		"link": "https://github.com/niceduckdev/mine-game"
+	},
+	{
+		"title": "side",
+		"description": "a platformer game that is not very content-rich, made for the geojam",
+		"link": "https://niceduckdev.itch.io/side"
+	},
+	{
+		"title": "tiny boat",
+		"description": "a (frustrating) boat game made (try not to punch through your computer screen), made for the weekly game jam",
+		"link": "https://niceduckdev.itch.io/tiny-boat"
+	}
+]

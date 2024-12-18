@@ -8,7 +8,7 @@ import Section from '@/components/section.vue';
         <p>Quack! My name is niceduckdev.</p>
         <p>
             I am a student at KdG Antwerp
-            and I love game, web and app development.
+            and I love making games, websites and spending time creating other technological stuff.
         </p>
     </Section>
 

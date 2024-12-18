@@ -53,7 +53,11 @@
         flex-direction: column;
     }
 
+	.article .information .title {
+		font-weight: 800;
+	}
+
     .article .information .description {
-        font-size: small;
+        font-size: medium;
     }
 </style>

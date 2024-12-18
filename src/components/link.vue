@@ -5,9 +5,12 @@
 </script>
 
 <template>
-    <a :href="href" target="_blank" class="link">
+	<a v-if="href.startsWith('https://') || href.startsWith('mailto:')" :href="href" target="_blank" class="link">
+		<slot />
+	</a>
+    <RouterLink v-else :to="href" class="link">
         <slot />
-    </a>
+    </RouterLink>
 </template>
 
 <style scoped>
