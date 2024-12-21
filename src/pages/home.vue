@@ -7,7 +7,7 @@ import Section from '@/components/section.vue';
     <Section title="about me">
         <p>Quack! My name is niceduckdev.</p>
         <p>
-            I am a student at KdG Antwerp
+            I am a student at KdG in Antwerp
             and I love making games, websites and spending time creating other technological stuff.
         </p>
     </Section>
