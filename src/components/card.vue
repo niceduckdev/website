@@ -8,31 +8,16 @@
         description: String,
         href: String
     });
-    const imagePath = ref(`background-image: url('/images/${props.image}');`);
-    const page = props.href.startsWith('/');
 </script>
 
 <template>
-    <article class="article">
-        <RouterLink
-            :to="href"
-            class="image"
-            :style="imagePath"
-            v-if="page"
-        />
-        <a
-            :href="href"
-            target="_blank"
-            class="image"
-            :style="imagePath"
-            v-if="!page"
-        />
-        
+    <a :href="href" target="_blank" class="article">
+		<section class="image" :style="`background-image: url(/images/${props.image})`" />
         <section class="information">
             <h3 class="title">{{ title }}</h3>
             <p class="description">{{ description }}</p>
         </section>
-    </article>
+    </a>
 </template>
 
 <style scoped>
@@ -40,7 +25,15 @@
         display: flex;
         flex-direction: column;
         gap: 5px;
+
+		color: var(--fg);
+		text-decoration: none;
+		transition: 100ms color;
     }
+
+	.article:hover {
+		color: var(--accent);
+	}
 
     .article .image {
         height: 125px;

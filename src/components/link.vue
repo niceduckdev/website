@@ -15,6 +15,6 @@
 
 <style scoped>
     .link {
-        color: #d79921;
+        color: var(--accent);
     }
 </style>

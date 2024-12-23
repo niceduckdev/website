@@ -4,7 +4,7 @@
 
 <template>
    <nav class="navigation-bar">
-      <h1 class="title accent">niceduck.dev</h1>
+      <h1 class="title">niceduck.dev</h1>
       <section class="links">
          <NavigationLink href="/">home</NavigationLink>
          <NavigationLink href="/projects">projects</NavigationLink>
@@ -21,7 +21,7 @@
     }
     .navigation-bar .title {
       font-size: xx-large;
-      color: #d79921;
+      color: var(--accent);
     }
     .navigation-bar .links {
       display: flex;
