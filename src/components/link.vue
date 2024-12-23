@@ -15,6 +15,10 @@
 
 <style scoped>
     .link {
-        color: var(--accent);
+        color: var(--fg);
+		transition: 100ms color;
     }
+	.link:hover {
+		color: var(--accent);
+	}
 </style>

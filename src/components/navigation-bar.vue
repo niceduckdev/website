@@ -1,13 +1,13 @@
 <script setup>
-    import NavigationLink from '@/components/navigation-link.vue';
+    import Link from '@/components/link.vue';
 </script>
 
 <template>
    <nav class="navigation-bar">
       <h1 class="title">niceduck.dev</h1>
       <section class="links">
-         <NavigationLink href="/">home</NavigationLink>
-         <NavigationLink href="/projects">projects</NavigationLink>
+         <Link href="/">home</Link>
+         <Link href="/projects">projects</Link>
       </section>
    </nav>
 </template>
