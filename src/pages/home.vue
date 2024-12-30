@@ -10,6 +10,7 @@ import Section from '@/components/section.vue';
             I am a student at KdG in Antwerp
             and I love making games, websites and spending time creating other technological stuff.
         </p>
+		<p>You can contact me at <Link href="mailto:contact@niceduck.dev">contact@niceduck.dev</Link></p>
     </Section>
 
     <Section title="follow me">
